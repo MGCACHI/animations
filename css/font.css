@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'title';
+    src: url('../fonts/title/title.eot') format('embedded-opentype'),
+         url('../fonts/title/title.woff2') format('woff2'),
+         url('../fonts/title/title.woff') format('woff'),
+         url('../fonts/title/title.ttf') format('truetype'),
+         url('../fonts/title/title.svg#title') format('svg');
+}
