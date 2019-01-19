@@ -1,9 +1,13 @@
-#img
+/*base ellements*/
+.flex
 {
-	width: 200px;
-	transition: all 1s;
+	display: flex;
 }
-#img:hover
+/*base ellements*/
+/*header*/
+.logo
 {
-	content: url('../img/search-icon.png');
+	width: 70px;
 }
+
+/*header*/
