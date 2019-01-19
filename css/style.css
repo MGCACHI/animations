@@ -3,11 +3,60 @@
 {
 	display: flex;
 }
+.conteiner
+{
+	max-width: 1170px;
+	margin: 0 auto;
+	width: 100%;
+}
+
 /*base ellements*/
 /*header*/
+.header-box
+{
+	justify-content: space-between;
+}
 .logo
 {
 	width: 70px;
 }
-
+.navigation
+{
+	line-height: 100px;
+}
+.nav-li
+{
+	margin-right: 20px;
+	height: 85px;
+    border: 2px solid powderblue;
+}
+.social-navigations
+{
+	line-height: 100px;
+}
+.soc-li
+{
+	margin-right: 20px;
+}
+.header-text
+{
+	font-size: 30px;
+	font-family: title;
+}
+.active
+{
+	background-color: orange;
+}
+.header
+{
+	position: relative;
+}
+.header-box
+{
+	position: fixed;
+    top: 0px;
+    left: 140px;
+}
 /*header*/
+/*banner*/
+/*banner*/
