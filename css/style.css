@@ -54,6 +54,14 @@
 {
 	background-color: orange;
 }
+.header-img
+{
+	width: 35px;
+}
+.you
+{
+	width: 40px;
+}
 /*header*/
 /*banner*/
 .home
@@ -76,7 +84,7 @@
 }
 .back
 {
-	background-color: blue;
+	background-color: darkblue;
 }
 .left-block
 {
@@ -103,7 +111,7 @@
 {
 	padding-top: 30px;
 	padding-left: 50px;
-	padding-bottom: 20px;
+	padding-bottom: 2d0px;
 	padding-right: 30px; 
 }
 .form
@@ -151,5 +159,26 @@
 	border: 2px solid darkblue;
     font-family: monospace;
 }
-
 /*contact block*/
+/*share wrapper*/
+.share-wrapper
+{
+	background-color: lightgrey;
+}
+.share-nav
+{
+	justify-content: flex-end;
+	padding: 10px 0;
+}
+/*share wrapper*/
+.footer
+{
+	padding: 20px 0;
+	font-size: 12px;
+	font-family: title; 
+}
+.fh
+{
+	justify-content: space-between;
+}
+/*share wrapper*/
