@@ -66,8 +66,40 @@
 {
 	width: 40px;
 	height: 40px;
+    border: 1px solid black;
+	margin: 20px 30px;
 	justify-content: center;
-	background-color: blue;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+.burger .devider
+{
+	width: 30px;
+	height: 2px;
+	background-color: black;
+	margin: 8px auto;
+	position: absolute;
+}
+
+.burger .devider:nth-child(1)
+{
+    transform: translate(-50%); 
+}
+.burger .devider:nth-child(1)
+{
+    top: 30%; 
+    left: 50%;
+}
+.burger .devider:nth-child(2)
+{
+	top: 60%;
+	left: 50%;
+}
+.burger .devider:nth-child(3)
+{
+	top: 90%;
+	left: 50%;
 }
 /*header*/
 /*banner*/
